@@ -12,7 +12,7 @@ var page = require('webpage').create(),
     address;
 
 if (system.args.length === 1) {
-    console.log('Usage: app.js <some URL>');
+    console.log('Usage: phantomjs sniff_shorturl.js <some URL>');
     phantom.exit(1);
 } else {
   address = system.args[1];
