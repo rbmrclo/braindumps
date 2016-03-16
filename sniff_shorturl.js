@@ -7,6 +7,8 @@
 //
 // Run: phantomjs sniff_shorturl.js http://goo.gl/ASD123
 //
+// Alternatively, you can just use `curl`.
+//
 var page = require('webpage').create(),
     system = require('system'),
     address;
